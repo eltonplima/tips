@@ -194,3 +194,9 @@ systemctl status snap.docker.dockerd.service
 
 * [hey](https://github.com/rakyll/hey)
 * [siege](https://github.com/JoeDog/siege)
+
+## Network
+
+Redirect local service calling
+
+* socat TCP4-LISTEN:80,fork TCP4:www.yourdomain.org:8080
