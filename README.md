@@ -200,3 +200,17 @@ systemctl status snap.docker.dockerd.service
 Redirect local service calling
 
 * socat TCP4-LISTEN:80,fork TCP4:www.yourdomain.org:8080
+
+## Backup with rsync
+
+### Local sync
+
+```
+rsync -avzh /my/origin/dir /my/dest/dir
+```
+
+### Remote sync
+
+```
+rsync -avzhe ssh --progress /my/origin/dir <USER>@<HOST>:/my/dest/dir
+```
