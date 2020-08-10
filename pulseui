@@ -1,0 +1,11 @@
+# Install pulse vpn client on Ubuntu 20.04
+
+Install dependency
+
+```bash
+sudo apt install libenchant1c2a
+```
+
+Follow the instructions on:
+
+https://askubuntu.com/questions/1135065/cant-run-pulse-secure-on-ubuntu-19-04-because-libwebkitgtk-1-0-so-0-is-missing
